@@ -193,6 +193,7 @@
     align-items: center;
     gap: 60px;
     margin-left: 120px;
+    margin-bottom: 120px;
 }
 #section3 .section3-content{
     max-width: 700px;
@@ -200,3 +201,96 @@
     margin-top: 102px;
     margin-bottom: 102px;
 }
+.section3-content .section3-heading{
+   color:#30B868;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-bottom: 16px;
+
+}
+.section3-content h1{
+    color:#001931;
+    line-height: 58px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+   letter-spacing: 0%;
+   text-align: left;
+   text-transform: capitalize;
+   margin-bottom: 16px;
+
+}
+.section3-content .section3-txt{
+     color:#627382;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 20px;
+     letter-spacing: 0%;
+     text-align: left;
+     margin-bottom: 40px;
+
+}
+.section3-content ul{
+    list-style-type: none;
+}
+.section3-li h6{
+  color: #001931;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.section3-li img{
+    height:20px ;
+    width:20px ;
+
+}
+.section3-li{
+    display: flex;
+    gap: 6px;
+    text-align: center;
+}
+#section4{
+    max-width: 1360px;
+    max-height: 384px;
+    text-align: center;
+    margin-left: 120px;
+    margin-bottom: 120px;
+    background-color: rgba(247, 246, 242, 1);
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.section4-title h1 {
+    color:#001931;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.section4-title p,.section4-body p {
+    color:#627382;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.section4-body p{
+    margin-top: 16px;
+}
+
+
