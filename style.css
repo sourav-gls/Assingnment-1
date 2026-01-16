@@ -260,6 +260,7 @@
     max-height: 384px;
     text-align: center;
     margin-left: 120px;
+    margin-right: 120px;
     margin-bottom: 120px;
     background-color: rgba(247, 246, 242, 1);
     padding-top: 80px;
@@ -292,5 +293,58 @@
 .section4-body p{
     margin-top: 16px;
 }
+footer {
+    max-width: 1600px;
+    max-height: 348px;
+    background-color: #001931;
+    background-size: cover;
 
+}
+.logo-container{
+    max-width: 1360px;
+    max-height: 64px;
+    display: flex;
+    gap: 790px;
+    align-items: center; 
+    margin:0 120px 80px 120px;
+    padding-top: 120px;
+}
+.social-link .social-icon{
+    display: flex;
+    color: #ffffff;
+    gap: 16px;
 
+}
+.social-icon i {
+    width: 20px;
+    height: 20px;
+}
+.social-link p{
+    color: #FFFFFF;
+    font-family: Inter; 
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+.logo img{
+    width:139px;
+    height:60px;
+    margin-right:211px;
+}
+hr{
+    border: 1px dotted #627382;
+    margin-bottom: 30px;
+}
+.last-txt{
+    padding: 0 120px 30px 120px;
+    max-width: 1360px;
+    border-top: #627382;
+}
+.last-txt p{
+    color:#ffffff;
+   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
