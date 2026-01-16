@@ -4,7 +4,7 @@
 }
 .nav-container{
 
-    max-width:1328px; 
+    max-width:1360px; 
     width: 83%;
     display: flex;
     align-items: center;
@@ -46,4 +46,157 @@
     border: none;
     border-radius: 4px;
     font-weight: 600;
+    text-align: center;
+}
+
+
+#banner{
+    background-size: 100%;
+    background-image:url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    max-width: 1360px;
+    width: 83%;
+    height: 379px;
+    padding-top: 115px;
+    padding-bottom: 180px;
+    text-align: center;
+    padding-left: 120px;
+}
+.transparent-btn{
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+     border-radius: 2px;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-weight: 400;
+    margin-left: 16px;
+
+}
+.banner-title{
+    background-color: white;
+    border-radius: 1000px;
+    color: #30B868;
+    border: none;
+    padding: 8px 12px 8px 12px;
+}
+.banner-content h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 84px;
+    text-align: center;
+}
+.green-txt{
+    color:#30B868 ;
+}
+.banner-content .details{
+    color: rgba(255, 255, 255, 1);
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0%;
+     text-align: center;
+     margin-bottom: 32px;
+}
+.btn img{
+    margin-left: 10px;
+    text-align: center;
+}
+.section-heading{
+    max-width: 1360px;
+    max-height: 116px;
+    text-align: center;
+}
+.section-heading h1{
+    color:#001931;
+    font-style: Bold;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    margin-top:50px;
+    margin-bottom: 16px;
+    margin-left: 120px;
+}
+.section-heading p{
+    color:#627382;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    margin-bottom: 44px;
+    margin-left: 120px;
+}
+.card-container{
+    max-width: 1360px;
+    width: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-bottom: 120px;
+    gap:24px;
+
+}
+.card{
+  width: 322px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+ box-shadow:0 6px 50px 0 #00000027 ;
+  
+
+
+}
+.card h6{
+ color: #001931;
+ font-size: 24px;
+ font-weight: 600;
+ line-height: 29px;
+ text-align: center;
+ font-style: Semi Bold;
+ letter-spacing: 0%;
+ margin-top: 16px;
+ margin-bottom: 16px;
+
+}
+.card p{
+ color:#627382;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 20px;
+ letter-spacing: 0%;
+ text-align: center;
+}
+.card img{
+    width: 32px;
+    height: 32px;
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 14px;
+
+}
+#section3{
+    max-width: 1360px;
+    max-height: 600px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-left: 120px;
+}
+#section3 .section3-content{
+    max-width: 700px;
+    max-height: 396px;
+    margin-top: 102px;
+    margin-bottom: 102px;
 }
